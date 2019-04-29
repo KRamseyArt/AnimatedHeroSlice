@@ -1,0 +1,106 @@
+* {
+	margin: 0 auto;
+}
+
+body {
+	overflow: hidden;
+	background: url("http://www.kalinramsey.com/wp-content/uploads/2019/03/Background.jpg");
+}
+
+.pen-label {
+	font-family: Play, sans-serif;
+	font-weight: 700;
+	font-size: 9vh;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 40vh;
+	left: 0;
+	color: gray;
+	right: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.buttons {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.pen-tag {
+	font-size: 3vh;
+	font-weight: 700;
+	letter-spacing: 2vh;
+	text-align: center;
+}
+
+.trigger-an {
+	background: slateblue;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	padding: 8px 10px;
+	border: 2px solid white;
+	font-family: Play, sans-serif;
+	text-transform: uppercase;
+    border-radius: 80px;
+    width: 10%;
+}
+
+.trigger {
+	cursor: pointer;
+	position: fixed;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	padding: 8px 10px;
+	background: slateblue;
+	color: white;
+	font-size: 14px;
+	border: 2px solid white;
+	font-family: Play, sans-serif;
+	text-transform: uppercase;
+	border-radius: 80px;
+	text-decoration: none;
+}
+
+.trigger:hover {
+	background: rgb(0, 0, 0, 0.5);
+	color: white;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.rev {
+	position: fixed;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.cont {
+	display: flex;
+	width: 160%;
+	position: absolute;
+	margin-left: -25%;
+	z-index: -2;
+	opacity: 0;
+}
+
+.rect {
+	width: 0%;
+	height: 100vh;
+	transform: skew(-40deg);
+}
+
+.yell {
+	background: #fff;
+}
+.mar {
+	background: #fff;
+}
+.default {
+	background: #fff;
+}
+.next {
+	background: #fff;
+}
